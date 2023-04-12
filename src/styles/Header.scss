@@ -1,0 +1,37 @@
+@import "App.scss";
+
+.header {
+  //background-color: $pink-soft;
+  background-color: #fdd0e1;
+  height: 30vh;
+
+  .logo {
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+  }
+  .navbar {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-family: $font;
+
+    &__list {
+      margin: 1rem;
+
+      &--link {
+        text-decoration: none;
+        font-size: 15px;
+        color: #66aef1;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
