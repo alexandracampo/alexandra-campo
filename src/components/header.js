@@ -1,4 +1,5 @@
 import logo from '../images/logo12_.png';
+import image_laptop from '../images/laptop.png';
 import '../styles/Header.scss';
 
 
@@ -20,6 +21,7 @@ function Header() {
                     </a>
                 </li>
             </ul>
+            <img className="laptop-image" src={image_laptop} alt='Dibujo mesa ordenador y café'></img>
         </div>
     );
 };
