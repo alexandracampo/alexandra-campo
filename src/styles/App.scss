@@ -4,6 +4,8 @@ $pink-soft: #fdd0e1;
 $pink: #ffafcc;
 $blue-soft: #bde0fe;
 $blue: #a2d2ff;
+$black: black;
+$backgroundColor1: white;
 
 $font: "Montserrat", sans-serif;
 
@@ -12,4 +14,10 @@ $font: "Montserrat", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+[data-theme="dark"] {
+  $backgroundColor1: black;
+  $pink-soft: black;
 }

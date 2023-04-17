@@ -1,42 +1,57 @@
 @import "App.scss";
 
 .header {
-  //background-color: $pink-soft;
-  background-color: #fdd0e1;
-  height: 30vh;
+  background-color: $pink-soft;
+  height: 6vh;
 
-  .logo {
-    height: 8rem;
-    width: 8rem;
-    //position: absolute;
-    //top: 5%;
-    //left: 15%;
+  .link-name .nombre-logo {
+    max-width: 15rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
   }
-  .navbar {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    font-family: $font;
 
-    &__list {
-      margin: 1rem;
+  .switch-button {
+    display: inline-block;
+    margin-left: 1rem;
 
-      &--link {
-        text-decoration: none;
-        font-size: 15px;
-        color: #66aef1;
+    .switch-button__checkbox {
+      display: none;
+    }
 
-        &:hover {
-          cursor: pointer;
-        }
+    .switch-button__label {
+      background-color: $black;
+      display: inline-block;
+      position: relative;
+      width: 3rem;
+      height: 1.4rem;
+      border-radius: 1rem;
+      cursor: pointer;
+
+      &:before {
+        transition: 0.2s;
+        display: block;
+        position: absolute;
+        width: 1.5rem;
+        height: 1.4rem;
+        background-color: white;
+        content: "";
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 0px 1px $black;
+      }
+    }
+
+    .switch-button__checkbox:checked + .switch-button__label {
+      background-color: $blue;
+
+      &:before {
+        transform: translateX(1.5rem);
       }
     }
   }
 
-  .laptop-image {
-    height: 8rem;
-    width: 8rem;
+  .menu-header {
+    position: absolute;
+    right: 0%;
+    margin: 0.7rem 0.5rem 0.5rem 0.5rem;
   }
 }

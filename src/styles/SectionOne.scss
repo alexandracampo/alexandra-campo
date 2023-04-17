@@ -1,7 +1,8 @@
 @import "App.scss";
 
 .section-one {
-  background-image: url("../images/fondo25.jpg");
+  //background-image: url("../images/fondo25.jpg");
+  background-color: $backgroundColor1;
   height: 40vh;
   background-size: cover;
   background-position: center;
