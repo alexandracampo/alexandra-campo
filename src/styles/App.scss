@@ -21,11 +21,24 @@ $font: "Montserrat", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  /* position: absolute;
+  top: 3.5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto; */
+}
+
 //Estilos modos light/dark:
-/* [data-theme="light"] {
+[data-theme="light"] {
   background-color: $pink-soft;
-  color: $blue;
-} */
+  color: $text-light;
+}
 
 [data-theme="dark"] {
   background-color: $color-fondo-oscuro;

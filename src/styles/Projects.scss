@@ -1,0 +1,23 @@
+@import "App.scss";
+
+.box-projects {
+  .projects {
+    height: 60vh;
+    margin: 1rem;
+    display: grid;
+    //grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+
+    .card {
+      background-color: $pink-soft;
+      opacity: 70%;
+      border-radius: 10%;
+      box-shadow: 5px 5px 10px; // si añadimos "inset" la sombra se crea en el interior
+      //box-shadow: 5px 5px 10px #48529944; si queremos darle color a la sombra
+      height: 18rem;
+      width: 14rem;
+    }
+  }
+}

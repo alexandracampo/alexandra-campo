@@ -6,10 +6,12 @@ function Header() {
 
     const setDarkMode = () => {
         document.querySelector(".header").setAttribute("data-theme", "dark")
+        document.querySelector(".footer").setAttribute("data-theme", "dark")
     }
 
     const setLightMode = () => {
         document.querySelector(".header").setAttribute("data-theme", "light")
+        document.querySelector(".footer").setAttribute("data-theme", "light")
     }
 
     const toggleTheme = (ev) => {
