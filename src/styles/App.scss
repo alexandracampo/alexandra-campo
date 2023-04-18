@@ -1,12 +1,16 @@
-// Variables:
+// Variables light mode:
 $purple: #cdb4db;
 $pink-soft: #fdd0e1;
 $pink: #ffafcc;
 $blue-soft: #bde0fe;
-$blue: #a2d2ff;
-$black: black;
-$backgroundColor1: white;
+$blue: #9ddff0;
+$text-light: rgb(105, 103, 103);
 
+// Variables dark mode:
+$color-fondo-oscuro: #222;
+$text-dark: #e2e4e5;
+
+// Fuentes:
 $font: "Montserrat", sans-serif;
 
 // Reset:
@@ -17,7 +21,13 @@ $font: "Montserrat", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
+//Estilos modos light/dark:
+/* [data-theme="light"] {
+  background-color: $pink-soft;
+  color: $blue;
+} */
+
 [data-theme="dark"] {
-  $backgroundColor1: black;
-  $pink-soft: black;
+  background-color: $color-fondo-oscuro;
+  color: $text-dark;
 }

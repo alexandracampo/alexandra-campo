@@ -2,56 +2,68 @@
 
 .header {
   background-color: $pink-soft;
-  height: 6vh;
+  color: $text-light;
+  height: 4vh;
 
-  .link-name .nombre-logo {
-    max-width: 15rem;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-  }
+  .header-box-title {
+    display: flex;
+    flex-direction: column;
 
-  .switch-button {
-    display: inline-block;
-    margin-left: 1rem;
-
-    .switch-button__checkbox {
-      display: none;
+    .header-name {
+      font-family: $font;
+      font-weight: 700;
+      font-size: 1rem;
+      margin: 1rem 0 0.5rem 1rem;
     }
 
-    .switch-button__label {
-      background-color: $black;
+    .switch-button {
       display: inline-block;
-      position: relative;
-      width: 3rem;
-      height: 1.4rem;
-      border-radius: 1rem;
-      cursor: pointer;
+      margin-left: 1rem;
+      position: absolute;
+      top: 4rem;
+      left: 40%;
 
-      &:before {
-        transition: 0.2s;
-        display: block;
-        position: absolute;
-        width: 1.5rem;
-        height: 1.4rem;
-        background-color: white;
-        content: "";
-        border-radius: 50%;
-        box-shadow: inset 0px 0px 0px 1px $black;
+      .switch-button__checkbox {
+        display: none;
       }
-    }
 
-    .switch-button__checkbox:checked + .switch-button__label {
-      background-color: $blue;
+      .switch-button__label {
+        background-color: rgb(77, 71, 71);
+        display: inline-block;
+        position: relative;
+        width: 2.2rem;
+        height: 1rem;
+        border-radius: 1rem;
+        cursor: pointer;
 
-      &:before {
-        transform: translateX(1.5rem);
+        &:before {
+          transition: 0.2s;
+          display: block;
+          position: absolute;
+          width: 1.1rem;
+          height: 1rem;
+          background-color: white;
+          content: "";
+          border-radius: 50%;
+          box-shadow: inset 0px 0px 0px 1px rgb(107, 98, 98);
+        }
+      }
+
+      .switch-button__checkbox:checked + .switch-button__label {
+        background-color: $pink-soft;
+
+        &:before {
+          transform: translateX(1.1rem);
+        }
       }
     }
   }
-
-  .menu-header {
+  .header-menu-img {
     position: absolute;
     right: 0%;
-    margin: 0.7rem 0.5rem 0.5rem 0.5rem;
+    top: 0%;
+    margin: 0.9rem 0.8rem 0.5rem 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }

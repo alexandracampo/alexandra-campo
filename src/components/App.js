@@ -1,5 +1,4 @@
 import '../styles/App.scss';
-import '../styles/DarkMode.scss';
 import Header from './Header';
 import SectionOne from './SectionOne';
 
