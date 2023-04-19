@@ -2,19 +2,21 @@ import '../styles/App.scss';
 import Header from './Header';
 import Introduction from './Introduction';
 import Projects from './Projects';
-import Tools from './Tools';
+import Contacto from './Contacto';
 import Footer from './Footer';
+
 
 
 function App() {
 
+
   return (
     <div>
       <Header />
-      <main className='main' >
+      <main>
         <Introduction />
         <Projects />
-        <Tools />
+        <Contacto />
       </main>
       <Footer />
     </div>

@@ -1,29 +1,24 @@
 @import "App.scss";
 
 .header {
-  background-color: $pink-soft;
+  background-color: $header-light-color;
   color: $text-light;
   height: 3.5rem;
   width: 100%;
   position: fixed;
-  margin-bottom: 2rem;
+  top: 0;
+  z-index: 9999;
+
   .header-box-title {
     display: flex;
     flex-direction: row;
-
-    .header-name {
-      font-family: $font;
-      font-weight: 700;
-      font-size: 1rem;
-      margin: 1rem 0 0.5rem 1rem;
-    }
 
     .switch-button {
       display: inline-block;
       margin-left: 3rem;
       margin-top: 1rem;
       position: absolute;
-      right: 16%;
+      right: 85%;
 
       .switch-button__checkbox {
         display: none;
@@ -33,8 +28,8 @@
         background-color: rgb(77, 71, 71);
         display: inline-block;
         position: relative;
-        width: 2.3rem;
-        height: 1.2rem;
+        width: 2.6rem;
+        height: 1.5rem;
         border-radius: 1rem;
         cursor: pointer;
 
@@ -42,8 +37,8 @@
           transition: 0.2s;
           display: block;
           position: absolute;
-          width: 1.3rem;
-          height: 1.2rem;
+          width: 1.5rem;
+          height: 1.5rem;
           background-color: white;
           content: "";
           border-radius: 50%;

@@ -25,7 +25,7 @@ function Header() {
     return (
         <div className="header">
             <div className='header-box-title'>
-                <p className="header-name">{"{ Alexandra Campo }"}</p>
+                <p className="header-name"></p>
                 <div className="switch-button">
                     <input
                         type="checkbox"

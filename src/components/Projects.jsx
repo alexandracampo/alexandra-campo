@@ -2,14 +2,17 @@ import '../styles/Projects.scss';
 
 function Projects() {
     return (
-        <div className='box-projects'>
-            <section className="projects">
-                <div className="card"></div>
-                <div className="card"></div>
-                <div className="card"></div>
-                <div className="card"></div>
-                <div className="card"></div>
-            </section>
+        <div className='projects'>
+            <h1 className='projects__title'>
+                {"/Proyectos"}
+            </h1>
+            <ul className="projects__list">
+                <li className="projects__list--card"></li>
+                <li className="projects__list--card"></li>
+                <li className="projects__list--card"></li>
+                <li className="projects__list--card"></li>
+                <li className="projects__list--card"></li>
+            </ul>
         </div>
     );
 };

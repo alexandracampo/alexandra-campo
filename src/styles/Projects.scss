@@ -1,16 +1,26 @@
 @import "App.scss";
 
-.box-projects {
-  .projects {
-    height: 60vh;
+.projects {
+  height: 100vh;
+
+  &__title {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 3rem;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.8);
+    top: 75rem;
+    right: 0;
+    text-align: end;
+  }
+  &__list {
     margin: 1rem;
     display: grid;
-    //grid-template-columns: 1fr;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     justify-items: center;
 
-    .card {
+    &--card {
       background-color: $pink-soft;
       opacity: 70%;
       border-radius: 10%;
@@ -18,6 +28,7 @@
       //box-shadow: 5px 5px 10px #48529944; si queremos darle color a la sombra
       height: 18rem;
       width: 14rem;
+      list-style-type: none;
     }
   }
 }
