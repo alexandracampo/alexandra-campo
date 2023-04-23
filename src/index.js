@@ -26,7 +26,9 @@ import { HashRouter } from 'react-router-dom'; //indicamos que vamos a usar las 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
-    <App />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </HashRouter>
 );
 

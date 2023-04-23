@@ -1,9 +1,8 @@
 import '../styles/App.scss';
-import Header from './Header';
-import Introduction from './Introduction';
-import Projects from './Projects';
-import Contacto from './Contacto';
-import Footer from './Footer';
+import Landing from './Landing';
+import Principal from './Principal';
+
+import { Route, Routes } from 'react-router-dom'
 
 
 
@@ -11,15 +10,18 @@ function App() {
 
 
   return (
-    <div>
-      <Header />
-      <main>
-        <Introduction />
-        <Projects />
-        <Contacto />
-      </main>
-      <Footer />
-    </div>
+
+
+    <>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/Principal" element={<Principal />} />
+      </Routes>
+
+
+    </>
+
+
   );
 };
 
