@@ -2,13 +2,19 @@
 
 .landing {
   height: 100vh;
-  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  //background-color: rgb(255, 255, 255);
+  background-image: url("../images/fondo25.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &__img {
-    width: 18rem;
-    margin-top: 10vh;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: 100%;
+    margin: 0rem, 1rem, 0rem, 1rem;
   }
 
   &__button {
