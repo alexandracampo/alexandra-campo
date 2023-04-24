@@ -8,9 +8,9 @@
   background-repeat: no-repeat;
 
   .title1 {
-    font-family: $font;
-    font-weight: 700;
-    font-size: 3rem;
+    font-family: $font2;
+    font-weight: 800;
+    font-size: 2.5rem;
     position: absolute;
     color: rgba(0, 0, 0, 0.8);
     top: 7rem;
@@ -19,7 +19,7 @@
   }
 
   .title-opacity {
-    font-family: $font;
+    font-family: $font2;
     font-size: 7rem;
     color: rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -30,27 +30,28 @@
 
   .text {
     font-size: 1rem;
-    font-family: $font;
-    font-weight: 300;
+    font-family: $font2;
+    font-weight: 400;
     line-height: 1.4;
     text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: rgb(81, 81, 82);
 
     &__box1 {
       margin: 16rem 0 2.5rem 0;
-      width: 14rem;
+      width: 15rem;
     }
 
     &__box2 {
       margin: 0 0 2.5rem 0;
-      width: 14rem;
+      width: 15rem;
     }
 
     &__box3 {
       margin: 0 0 2.5rem 0;
-      width: 14rem;
+      width: 15rem;
     }
   }
 }

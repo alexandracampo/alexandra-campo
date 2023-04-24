@@ -1,5 +1,6 @@
 import '../styles/Landing.scss';
 import { Link } from 'react-router-dom'
+import welcomeImg from '../images/welcome2.png'
 
 function Landing() {
 
@@ -7,10 +8,11 @@ function Landing() {
     return (
         <div className="landing">
 
-            <section className="landing__name">
-                {'hola soy el landing'}
-            </section>
-            <Link to="/Principal">{'soy el link del landing'}</Link>
+            <img className="landing__img" src={welcomeImg} />
+            <button className="landing__button">
+                <Link to="/Principal">{'This is the way'}</Link>
+            </button>
+
         </div>
     );
 };

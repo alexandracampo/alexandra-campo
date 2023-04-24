@@ -1,12 +1,12 @@
 @import "App.scss";
 
 .projects {
-  height: 100vh;
+  //height: 100vh;
 
   &__title {
-    font-family: $font;
+    font-family: $font2;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: absolute;
     color: rgba(0, 0, 0, 0.8);
     top: 75rem;
@@ -19,6 +19,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     justify-items: center;
+    margin-bottom: 5rem;
 
     &--card {
       background-color: $pink-soft;
