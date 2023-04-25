@@ -1,29 +1,20 @@
 import '../styles/Header.scss';
-import menu from '../images/menu4.png'
+import menuImage from '../images/menu4.png'
+import { useState } from 'react';
 
 
-function Header() {
 
-    const setDarkMode = () => {
-        document.querySelector(".header").setAttribute("data-theme", "dark")
-        document.querySelector(".footer").setAttribute("data-theme", "dark")
+function Header(props) {
+
+    const [menu, setMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setMenu(!menu);
     }
-
-    const setLightMode = () => {
-        document.querySelector(".header").setAttribute("data-theme", "light")
-        document.querySelector(".footer").setAttribute("data-theme", "light")
-    }
-
-    const toggleTheme = (ev) => {
-        if (ev.target.checked) {
-            setDarkMode()
-        } else {
-            setLightMode()
-        }
-    }
+    console.log(menu)
 
     return (
-        <div className="header">
+        <div className={`header ${props.theme}`} >
             <div className='header-box-title'>
                 <p className="header-name"></p>
                 <div className="switch-button">
@@ -31,14 +22,27 @@ function Header() {
                         type="checkbox"
                         name="switch-button"
                         id="switch-label" className="switch-button__checkbox"
-                        onChange={toggleTheme}
+                        onChange={props.prop1}
                     />
                     <label htmlFor="switch-label" className="switch-button__label"></label>
                 </div>
             </div>
-            <a className='header-menu-link' href='/'>
-                <img className='header-menu-img' src={menu} alt="logo menú" />
+
+            <a
+                onClick={toggleMenu}
+                href={menu}>
+                <img
+                    className='header-menu-img'
+                    src={menuImage}
+                    alt="logo menú" />
             </a>
+            <ul className={`menu ${menu ? "menu-activo" : ""}`}>
+                <li><a>About me</a></li>
+                <li><a>Proyectos</a></li>
+                <li><a>Herramientas</a></li>
+                <li><a>Contacta conmigo</a></li>
+            </ul>
+
         </div>
     );
 };

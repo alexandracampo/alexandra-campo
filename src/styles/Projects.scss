@@ -1,18 +1,16 @@
 @import "App.scss";
 
 .projects {
-  //height: 100vh;
+  font-family: $font2;
+  color: rgba(0, 0, 0, 0.8);
 
   &__title {
-    font-family: $font2;
     font-weight: 700;
     font-size: 2.5rem;
-    position: absolute;
-    color: rgba(0, 0, 0, 0.8);
-    top: 75rem;
-    right: 0;
     text-align: end;
+    margin-bottom: 3rem;
   }
+
   &__list {
     margin: 1rem;
     display: grid;
@@ -32,4 +30,9 @@
       list-style-type: none;
     }
   }
+}
+
+.dark {
+  background-color: rgb(54, 54, 54);
+  color: white;
 }

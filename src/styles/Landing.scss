@@ -3,8 +3,7 @@
 .landing {
   height: 100vh;
   width: 100vw;
-  //background-color: rgb(255, 255, 255);
-  background-image: url("../images/fondo25.jpg");
+  background-image: url("../images/landing.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,8 +12,8 @@
   justify-content: center;
 
   &__img {
-    width: 100%;
-    margin: 0rem, 1rem, 0rem, 1rem;
+    width: 90%;
+    align-self: center;
   }
 
   &__button {
@@ -25,16 +24,18 @@
     width: 10rem;
     font-weight: 600;
     margin-top: 8rem;
-    margin-left: 25%;
     cursor: pointer;
     color: rgb(66, 66, 66);
     font-family: $font2;
+    align-self: center;
+
+    //box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    //transition: all ease 0.5s;
+    text-decoration: none;
+    box-shadow: 3px 3px #dbbfca;
 
     &:hover {
-      box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-      transition: all ease 0.5s;
-      box-shadow: 3px 3px #dac5cd;
+      font-size: 0.9rem;
     }
 
     :link,

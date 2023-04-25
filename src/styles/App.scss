@@ -20,16 +20,5 @@ $font2: "Source Code Pro", monospace;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-//Estilos modos light/dark:
-[data-theme="light"] {
-  background-color: $pink-soft;
-  color: $text-light;
-}
-
-[data-theme="dark"] {
-  background-color: $color-fondo-oscuro;
-  color: $text-dark;
+  // transition: all 0.3s ease-in-out;
 }

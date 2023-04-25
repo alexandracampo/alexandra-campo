@@ -1,8 +1,8 @@
 import '../styles/Projects.scss';
 
-function Projects() {
+function Projects(props) {
     return (
-        <div className='projects'>
+        <div className={`projects ${props.theme}`}>
             <h1 className='projects__title'>
                 {"/Proyectos"}
             </h1>

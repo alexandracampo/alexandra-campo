@@ -1,11 +1,10 @@
 import '../styles/Contact.scss';
-import ring from '../images/ring1.png'
 
-function Contact() {
+function Contact(props) {
 
 
     return (
-        <div>
+        <div className={`contact ${props.theme}`}>
 
 
 
