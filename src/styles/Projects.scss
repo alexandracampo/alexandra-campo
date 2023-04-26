@@ -21,13 +21,15 @@
 
     &--card {
       background-color: $pink-soft;
-      opacity: 70%;
       border-radius: 10%;
       box-shadow: 5px 5px 10px; // si añadimos "inset" la sombra se crea en el interior
       //box-shadow: 5px 5px 10px #48529944; si queremos darle color a la sombra
       height: 18rem;
       width: 14rem;
       list-style-type: none;
+      height: 18rem;
+      width: 14rem;
+      border-radius: 10%;
     }
   }
 }

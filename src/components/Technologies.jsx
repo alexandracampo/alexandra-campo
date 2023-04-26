@@ -4,8 +4,8 @@ function Technologies(props) {
 
 
     return (
-        <div className={`technologies ${props.theme}`}>
-
+        <div id="technologiesId" className={`technologies ${props.theme}`}>
+            <p>Soy la sección de herramientas-tecnologías</p>
         </div>
     );
 };

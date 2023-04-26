@@ -4,7 +4,7 @@ function Introduction(props) {
 
 
     return (
-        <div className={`introduction ${props.theme}`} >
+        <div id="aboutmeId" className={`introduction ${props.theme}`} >
 
             <h1 className='title1'>{"/Alexandra Campo"}</h1>
 
@@ -17,7 +17,7 @@ function Introduction(props) {
                     Me siento con absoluta capacidad de enfrentarme a cualquier reto técnico, me encanta programar y maquetar. Y más allá de la parte técnica, soy una persona comunicativa, responsable, organizada y totalmente adaptable a los cambios.
                 </p>
                 <p className="text__box3">
-                    Te invito a navegar por mi web, a seguirme en mis redes sociales y a que contactes conmigo para cualquier consulta, propuesta o sugerencia, welcome!
+                    Te invito a navegar por mi web, a seguirme en mis redes sociales y a que contactes conmigo para cualquier consulta, propuesta o sugerencia. Welcome!
                 </p>
             </div>
         </div>

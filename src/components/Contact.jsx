@@ -4,8 +4,8 @@ function Contact(props) {
 
 
     return (
-        <div className={`contact ${props.theme}`}>
-
+        <div id="contactId" className={`contact ${props.theme}`}>
+            <p>Soy la sección de contacto</p>
 
 
         </div>

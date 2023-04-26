@@ -2,6 +2,7 @@ import '../styles/Header.scss';
 import menuImage from '../images/menu4.png';
 import menuImageCross from '../images/icon-cross.png';
 import { useState } from 'react';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 
@@ -34,11 +35,11 @@ function Header(props) {
                 alt="logo menú"
                 onClick={toggleMenu} />
 
-            <ul className={`${menu ? "menu-activo" : "menu"}`}>
-                <li><a className='menu-link'>About me</a></li>
-                <li><a className='menu-link'>Proyectos</a></li>
-                <li><a className='menu-link'>Herramientas</a></li>
-                <li><a className='menu-link'>Contacta conmigo</a></li>
+            <ul className={`${menu ? "menu-activo" : "menu"} ${props.theme}`}>
+                <li><AnchorLink offset={() => 300} href='#aboutmeId' className='menu-link'>About me</AnchorLink></li>
+                <li><AnchorLink offset={() => 200} href='#projectId' className='menu-link'>Proyectos</AnchorLink></li>
+                <li><AnchorLink offset={() => 200} href='#technologiesId' className='menu-link'>Herramientas</AnchorLink></li>
+                <li><AnchorLink offset={() => 200} href='#contactId' className='menu-link'>Contacta conmigo</AnchorLink></li>
             </ul>
 
         </div>

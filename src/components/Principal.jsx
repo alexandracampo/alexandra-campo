@@ -28,8 +28,8 @@ function Principal() {
 
 
     return (
-
         <div>
+
             <Header
                 prop1={toggleTheme}
                 theme={`${theme}`}
@@ -39,10 +39,7 @@ function Principal() {
             <Technologies theme={`${theme}`} />
             <Contact theme={`${theme}`} />
             <Footer theme={`${theme}`} />
-
         </div>
-
-
     );
 };
 
