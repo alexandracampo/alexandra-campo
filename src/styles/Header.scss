@@ -3,6 +3,7 @@
 .header {
   background-color: $header-light-color;
   color: $text-light;
+  font-family: $font2;
   height: 3.5rem;
   width: 100%;
   position: fixed;
@@ -62,11 +63,34 @@
     margin: 0.9rem 0.8rem 0.5rem 0.5rem;
     height: 1.5rem;
     width: 1.5rem;
+    cursor: pointer;
   }
 
   .menu-activo {
-    background-color: aquamarine;
+    background-color: #cdb4db98;
     margin-top: 3.5rem;
+    text-align: center;
+    border-radius: 10px;
+
+    .menu-link {
+      cursor: pointer;
+      display: block;
+      margin-bottom: 2px;
+
+      &::after {
+        content: "";
+        display: block;
+        height: 1px;
+        background-color: rgb(148, 147, 147);
+        transform: scale(0, 1);
+        transform-origin: center;
+        transition: transform 0.25s;
+      }
+
+      &:hover::after {
+        transform: scale(1, 1);
+      }
+    }
   }
 
   .menu {

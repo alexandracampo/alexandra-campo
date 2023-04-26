@@ -1,5 +1,6 @@
 import '../styles/Header.scss';
-import menuImage from '../images/menu4.png'
+import menuImage from '../images/menu4.png';
+import menuImageCross from '../images/icon-cross.png';
 import { useState } from 'react';
 
 
@@ -11,7 +12,6 @@ function Header(props) {
     const toggleMenu = () => {
         setMenu(!menu);
     }
-    console.log(menu)
 
     return (
         <div className={`header ${props.theme}`} >
@@ -28,19 +28,17 @@ function Header(props) {
                 </div>
             </div>
 
-            <a
-                onClick={toggleMenu}
-                href={menu}>
-                <img
-                    className='header-menu-img'
-                    src={menuImage}
-                    alt="logo menú" />
-            </a>
-            <ul className={`menu ${menu ? "menu-activo" : ""}`}>
-                <li><a>About me</a></li>
-                <li><a>Proyectos</a></li>
-                <li><a>Herramientas</a></li>
-                <li><a>Contacta conmigo</a></li>
+            <img
+                className='header-menu-img'
+                src={menu ? menuImageCross : menuImage}
+                alt="logo menú"
+                onClick={toggleMenu} />
+
+            <ul className={`${menu ? "menu-activo" : "menu"}`}>
+                <li><a className='menu-link'>About me</a></li>
+                <li><a className='menu-link'>Proyectos</a></li>
+                <li><a className='menu-link'>Herramientas</a></li>
+                <li><a className='menu-link'>Contacta conmigo</a></li>
             </ul>
 
         </div>
