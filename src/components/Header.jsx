@@ -29,6 +29,7 @@ function Header(props) {
                 </div>
             </div>
 
+
             <img
                 className='header-menu-img'
                 src={menu ? menuImageCross : menuImage}
@@ -36,6 +37,7 @@ function Header(props) {
                 onClick={toggleMenu} />
 
             <ul className={`${menu ? "menu-activo" : "menu"} ${props.theme}`}>
+
                 <li><AnchorLink offset={() => 300} href='#aboutmeId' className='menu-link'>About me</AnchorLink></li>
                 <li><AnchorLink offset={() => 200} href='#projectId' className='menu-link'>Proyectos</AnchorLink></li>
                 <li><AnchorLink offset={() => 200} href='#technologiesId' className='menu-link'>Herramientas</AnchorLink></li>

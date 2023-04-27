@@ -4,7 +4,7 @@
   background-color: $header-light-color;
   color: $text-light;
   font-family: $font2;
-  height: 3.5rem;
+  height: 3.2rem;
   width: 100%;
   position: fixed;
   top: 0;
@@ -56,6 +56,7 @@
       }
     }
   }
+
   .header-menu-img {
     position: absolute;
     right: 0%;
@@ -67,15 +68,27 @@
   }
 
   .menu-activo {
-    background-color: #cdb4dbda;
-    margin-top: 3.5rem;
+    background-color: $header-light-color;
+    margin-top: 3.2rem;
     text-align: center;
-    border-radius: 20px;
-    width: 20rem;
-    position: absolute;
     right: 0;
     top: -1rem;
     list-style-type: none;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+    @keyframes move {
+      0% {
+        transform: translateY(-3.2rem);
+      }
+      50% {
+        transform: translateY(0rem);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
 
     :link,
     :visited,
@@ -87,7 +100,7 @@
     .menu-link {
       cursor: pointer;
       display: block;
-      margin-bottom: 2px;
+      height: 1.5rem;
 
       &::after {
         content: "";

@@ -11,26 +11,26 @@
     margin-bottom: 3rem;
   }
 
-  &__list {
+  .projects__list {
     margin: 1rem;
+    gap: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
     justify-items: center;
     margin-bottom: 5rem;
+  }
 
-    &--card {
-      background-color: $pink-soft;
-      border-radius: 10%;
-      box-shadow: 5px 5px 10px; // si añadimos "inset" la sombra se crea en el interior
-      //box-shadow: 5px 5px 10px #48529944; si queremos darle color a la sombra
-      height: 18rem;
-      width: 14rem;
-      list-style-type: none;
-      height: 18rem;
-      width: 14rem;
-      border-radius: 10%;
-    }
+  .projects__list--card {
+    background-color: $pink-soft;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px; // si añadimos "inset" la sombra se crea en el interior
+    //box-shadow: 5px 5px 10px #48529944; si queremos darle color a la sombra
+    height: 18rem;
+    width: 14rem;
+    list-style-type: none;
+    height: 18rem;
+    width: 14rem;
+    border-radius: 10%;
   }
 }
 
