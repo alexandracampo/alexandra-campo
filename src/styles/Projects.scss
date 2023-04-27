@@ -11,30 +11,50 @@
     margin-bottom: 3rem;
   }
 
-  .projects__list {
+  &__list {
     margin: 1rem;
-    gap: 2rem;
+    gap: 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
     margin-bottom: 5rem;
-  }
 
-  .projects__list--card {
-    background-color: $pink-soft;
-    border-radius: 10%;
-    box-shadow: 5px 5px 10px; // si añadimos "inset" la sombra se crea en el interior
-    //box-shadow: 5px 5px 10px #48529944; si queremos darle color a la sombra
-    height: 18rem;
-    width: 14rem;
-    list-style-type: none;
-    height: 18rem;
-    width: 14rem;
-    border-radius: 10%;
-  }
-}
+    li {
+      list-style-type: none;
 
-.dark {
-  background-color: rgb(54, 54, 54);
-  color: white;
+      .card-img {
+        background-color: $pink-soft;
+        box-shadow: 5px 5px 10px;
+        //box-shadow: 5px 5px 10px inset #48529944; si queremos darle color a la sombra / si añadimos "inset" la sombra se crea en el interior
+        height: 25rem;
+        width: 18rem;
+        border-radius: 15px;
+        opacity: 0.5;
+      }
+
+      .card-info {
+        background-color: $pink-soft;
+        width: 12rem;
+        height: 6rem;
+        position: relative;
+        top: -3rem;
+        left: 16%;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .icon-web,
+        .icon-git {
+          height: 5rem;
+        }
+      }
+
+      .dark {
+        background-color: rgb(92, 92, 92);
+        color: white;
+      }
+    }
+  }
 }

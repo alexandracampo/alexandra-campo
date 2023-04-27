@@ -20,9 +20,7 @@ function Principal() {
         }
     };
 
-    useEffect(() => {
-        document.body.className = theme
-    }, [theme]);
+    useEffect(() => { document.body.className = theme }, [theme]);
 
 
 
