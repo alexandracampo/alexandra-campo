@@ -8,53 +8,97 @@
     font-weight: 700;
     font-size: 2.5rem;
     text-align: end;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
 
   &__list {
-    margin: 1rem;
-    gap: 5rem;
+    margin: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
-    margin-bottom: 5rem;
+    row-gap: 5rem;
+    column-gap: 8rem;
+    margin-top: 2rem;
 
-    li {
+    .projects-li {
+      //box-shadow: 5px 5px 10px inset #48529944; el color es para la sombra /"inset": la sombra se crea en el interior
       list-style-type: none;
+      background-color: #fdd0e1;
+      color: #424242cc;
+      box-shadow: 2px 2px 10px #60b0becc;
+      height: 26rem;
+      width: 19rem;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
 
-      .card-img {
-        background-color: $pink-soft;
-        box-shadow: 5px 5px 10px;
-        //box-shadow: 5px 5px 10px inset #48529944; si queremos darle color a la sombra / si añadimos "inset" la sombra se crea en el interior
-        height: 25rem;
-        width: 18rem;
-        border-radius: 15px;
-        opacity: 0.5;
+      .title-project {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
       }
 
-      .card-info {
-        background-color: $pink-soft;
-        width: 12rem;
-        height: 6rem;
-        position: relative;
-        top: -3rem;
-        left: 16%;
-        border-radius: 15px;
+      .card-img {
+        //box-shadow: 5px 5px 10px inset #48529944; si queremos darle color a la sombra / si añadimos "inset" la sombra se crea en el interior
+        height: 15rem;
+        width: 16rem;
+        border-radius: 10%;
+        margin-bottom: 0.5rem;
+      }
+
+      .project-techologies {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+
+        .tool {
+          margin-left: 1rem;
+          margin-right: 1rem;
+          font-size: 12px;
+          font-weight: 600;
+          border-radius: 15px;
+          border: 2px solid #60b0becc;
+          width: 6rem;
+          height: 1.2rem;
+          text-align: center;
+          margin-bottom: 0.2rem;
+        }
+      }
+
+      .card-links {
+        width: 5rem;
+        height: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1rem;
 
-        .icon-web,
+        .link-web,
+        .link-git {
+          display: flex;
+          flex-direction: row;
+          font-size: 10px;
+        }
+
+        .icon-web {
+          height: 2.2rem;
+          margin-bottom: 0.5rem;
+        }
         .icon-git {
-          height: 5rem;
+          height: 2.8rem;
+          margin-bottom: 0.5rem;
         }
       }
-
-      .dark {
-        background-color: rgb(92, 92, 92);
-        color: white;
-      }
+    }
+    .dark {
+      background-color: rgb(121, 119, 119);
+      color: white;
     }
   }
 }
