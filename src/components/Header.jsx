@@ -14,6 +14,13 @@ function Header(props) {
         setMenu(!menu);
     }
 
+    const handleCloseMenu = () => {
+        if (menu === true) {
+            setMenu(false)
+        }
+    }
+
+
     return (
         <div className={`header ${props.theme}`} >
             <div className='header-box-title'>
@@ -38,10 +45,10 @@ function Header(props) {
 
             <ul className={`${menu ? "menu-activo" : "menu"} ${props.theme}`}>
 
-                <li><AnchorLink offset={() => 300} href='#aboutmeId' className='menu-link'>About me</AnchorLink></li>
-                <li><AnchorLink offset={() => 200} href='#projectId' className='menu-link'>Proyectos</AnchorLink></li>
-                <li><AnchorLink offset={() => 200} href='#technologiesId' className='menu-link'>Herramientas</AnchorLink></li>
-                <li><AnchorLink offset={() => 200} href='#contactId' className='menu-link'>Contacta conmigo</AnchorLink></li>
+                <li><AnchorLink onClick={handleCloseMenu} offset={() => 300} href='#aboutmeId' className='menu-link'>About me</AnchorLink></li>
+                <li><AnchorLink onClick={handleCloseMenu} offset={() => 200} href='#projectId' className='menu-link'>Proyectos</AnchorLink></li>
+                <li><AnchorLink onClick={handleCloseMenu} offset={() => 200} href='#technologiesId' className='menu-link'>Herramientas</AnchorLink></li>
+                <li><AnchorLink onClick={handleCloseMenu} offset={() => 200} href='#contactId' className='menu-link'>Contacta conmigo</AnchorLink></li>
             </ul>
 
         </div>
