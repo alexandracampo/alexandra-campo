@@ -1,7 +1,7 @@
 @import "App.scss";
 
 .header {
-  background-color: $header-light-color;
+  background-color: white;
   color: $text-light;
   font-family: $font2;
   height: 3.2rem;
@@ -48,7 +48,7 @@
       }
 
       .switch-button__checkbox:checked + .switch-button__label {
-        background-color: $pink-soft;
+        background-color: #60b0be;
 
         &:before {
           transform: translateX(1.1rem);
@@ -68,7 +68,7 @@
   }
 
   .menu-activo {
-    background-color: $header-light-color;
+    background-color: #60b0be;
     margin-top: 3.2rem;
     text-align: center;
     right: 0;
@@ -94,13 +94,19 @@
     :visited,
     :active {
       text-decoration: none;
-      color: rgb(65, 65, 65);
+      color: rgb(255, 255, 255);
     }
 
+    li {
+      display: block;
+      height: 2rem;
+      padding: 0.5rem 0 0.5rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
     .menu-link {
       cursor: pointer;
-      display: block;
-      height: 1.5rem;
 
       &::after {
         content: "";

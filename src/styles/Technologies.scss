@@ -3,6 +3,20 @@
 .technologies {
   color: rgb(73, 73, 73);
   margin-top: 5rem;
+  margin-bottom: 5rem;
+  overflow: hidden;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(1rem);
+    }
+    50% {
+      transform: translateX(50rem);
+    }
+    100% {
+      transform: translateX(100rem);
+    }
+  }
 
   .title-tech {
     font-family: $font2;
@@ -17,10 +31,16 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    flex-wrap: nowrap;
 
-    .icon {
-      width: 4rem;
+    .li-icon {
+      animation: scroll 20s linear infinite;
+      display: flex;
+
+      .icon {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 2rem;
+      }
     }
   }
 }

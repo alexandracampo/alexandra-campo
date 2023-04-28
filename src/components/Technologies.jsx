@@ -24,21 +24,21 @@ function Technologies(props) {
             <h2 className='title-tech'>/Herramientas</h2>
 
             <ul className='icons-list'>
-                <li ><img className='icon' src={html} alt="icono html " /></li>
-                <li ><img className='icon' src={css} alt="icono css " /></li>
-                <li ><img className='icon' src={sass} alt="icono sass " /></li>
-                <li ><img className='icon' src={javascript} alt="icono javascript " /></li>
-                <li ><img className='icon' src={react} alt="icono react " /></li>
-                <li ><img className='icon' src={mysql} alt="icono mysql " /></li>
-                <li ><img className='icon' src={node} alt="icono node " /></li>
-                <li ><img className='icon' src={npm} alt="icono npm " /></li>
-                <li ><img className='icon' src={express} alt="icono express " /></li>
-                <li ><img className='icon' src={mongo} alt="icono mongo " /></li>
-                <li ><img className='icon' src={git} alt="icono git " /></li>
-                <li ><img className='icon' src={github} alt="icono github " /></li>
-                <li ><img className='icon' src={vsc} alt="icono vsc " /></li>
-                <li ><img className='icon' src={slack} alt="icono slack " /></li>
-                <li ><img className='icon' src={scrum} alt="icono scrum " /></li>
+                <li className='li-icon' ><img className='icon' src={html} alt="icono html " /></li>
+                <li className='li-icon' ><img className='icon' src={css} alt="icono css " /></li>
+                <li className='li-icon' ><img className='icon' src={sass} alt="icono sass " /></li>
+                <li className='li-icon' ><img className='icon' src={javascript} alt="icono javascript " /></li>
+                <li className='li-icon' ><img className='icon' src={react} alt="icono react " /></li>
+                <li className='li-icon' ><img className='icon' src={mysql} alt="icono mysql " /></li>
+                <li className='li-icon' ><img className='icon' src={node} alt="icono node " /></li>
+                <li className='li-icon' ><img className='icon' src={npm} alt="icono npm " /></li>
+                <li className='li-icon' ><img className='icon' src={express} alt="icono express " /></li>
+                <li className='li-icon' ><img className='icon' src={mongo} alt="icono mongo " /></li>
+                <li className='li-icon' ><img className='icon' src={git} alt="icono git " /></li>
+                <li className='li-icon' ><img className='icon' src={github} alt="icono github " /></li>
+                <li className='li-icon' ><img className='icon' src={vsc} alt="icono vsc " /></li>
+                <li className='li-icon' ><img className='icon' src={slack} alt="icono slack " /></li>
+                <li className='li-icon' ><img className='icon' src={scrum} alt="icono scrum " /></li>
 
             </ul>
         </div>
