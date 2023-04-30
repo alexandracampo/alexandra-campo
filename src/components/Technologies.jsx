@@ -22,7 +22,7 @@ function Technologies(props) {
         <div id="technologiesId" className={`technologies ${props.theme}`}>
 
             <h2 className='title-tech'>/Herramientas</h2>
-
+            <p>AQUÍ VA UN TEXTO DONDE HABLO DE LAS HERRAMIENTAS QUE MANEJO</p>
             <ul className='icons-list'>
                 <li className='li-icon' ><img className='icon' src={html} alt="icono html " /></li>
                 <li className='li-icon' ><img className='icon' src={css} alt="icono css " /></li>

@@ -1,6 +1,6 @@
 import '../styles/Landing.scss';
 import { Link } from 'react-router-dom'
-import imageLanding from '../images/image-mobile.png'
+import imageLanding from '../images/welcome-blue.png'
 
 function Landing() {
 

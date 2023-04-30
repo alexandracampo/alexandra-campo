@@ -1,6 +1,42 @@
 @import "App.scss";
 
 .contact {
-  background-color: rgb(88, 128, 138);
-  color: rgb(0, 0, 0);
+  color: rgb(53, 53, 53);
+  font-family: $font2;
+  font-weight: 800;
+  margin-left: 5rem;
+  text-align: end;
+
+  .title-contact {
+    font-family: $font2;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: end;
+    margin-bottom: 2rem;
+  }
+
+  .links-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+
+    &:active,
+    &:visited {
+      color: rgb(77, 77, 77);
+    }
+
+    .icon {
+      margin-bottom: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+      width: 2rem;
+    }
+  }
+  .dark {
+    background-color: rgb(54, 54, 54);
+    color: white;
+  }
 }

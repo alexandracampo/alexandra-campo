@@ -21,54 +21,43 @@ function Projects(props) {
                 <li className={`projects-li ${props.theme}`}>
                     <p className='title-project'>MY FIRST LAYOUT</p>
                     <img className="card-img" src={proyecto1} alt="captura pantalla de la web"></img>
-
                     <div className='project-techologies'>
-                        <p className='tool'>HTML5</p>
-                        <p className='tool' >CSS3</p>
-                        <p className='tool'>Sass</p>
+                        <p className='tech'>HTML5</p>
+                        <p className='tech' >CSS3</p>
+                        <p className='tech'>Sass</p>
                     </div>
-
                     <div className='card-links'>
                         <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/my-first-layout-web/"><img src={iconWeb} className="icon-web" alt="enlace la web" />
                         </a>
-
                         <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/my-first-layout-web"><img src={iconGit} className="icon-git" alt="enlace a git" />
                         </a>
                     </div>
-
-
 
                 </li>
                 <li className={`projects-li ${props.theme}`}>
                     <p className='title-project'>TARJETAS DE VISITA</p>
                     <img className="card-img" src={proyecto2} alt="captura pantalla de la web"></img>
-
                     <div className='project-techologies'>
-                        <p className='tool'>HTML5</p>
-                        <p className='tool' >CSS3</p>
-                        <p className='tool'>Sass</p>
-                        <p className='tool'>Javascript</p>
+                        <p className='tech'>HTML5</p>
+                        <p className='tech' >CSS3</p>
+                        <p className='tech'>Javascript</p>
                     </div>
-
                     <div className='card-links'>
                         <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/web-tarjetas-de-visita/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-tarjetas-de-visita"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-tarjetas-de-visita"><img src={iconGit} className="icon-git" alt="enlace a git" />
+                        </a>
                     </div>
                 </li>
 
                 <li className={`projects-li ${props.theme}`}>
                     <p className='title-project'>WEB DE PROYECTOS</p>
                     <img className="card-img" src={proyecto3} alt="captura pantalla de la web"></img>
-
                     <div className='project-techologies'>
-                        <p className='tool'>HTML5</p>
-                        <p className='tool' >CSS3</p>
-                        <p className='tool'>Sass</p>
-                        <p className='tool'>Javascript</p>
-                        <p className='tool'>React</p>
-
+                        <p className='tech'>HTML5</p>
+                        <p className='tech' >CSS3</p>
+                        <p className='tech'>Javascript</p>
+                        <p className='tech'>React</p>
                     </div>
-
                     <div className='card-links'>
                         <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/web-de-proyectos/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
                         <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-de-proyectos"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
@@ -80,11 +69,10 @@ function Projects(props) {
                     <img className="card-img" src={proyecto4} alt="captura pantalla de la web"></img>
 
                     <div className='project-techologies'>
-                        <p className='tool'>HTML5</p>
-                        <p className='tool' >CSS3</p>
-                        <p className='tool'>Sass</p>
-                        <p className='tool'>Javascript</p>
-                        <p className='tool'>React</p>
+                        <p className='tech'>HTML5</p>
+                        <p className='tech' >CSS3</p>
+                        <p className='tech'>Javascript</p>
+                        <p className='tech'>React</p>
                     </div>
 
                     <div className='card-links' >
@@ -98,10 +86,9 @@ function Projects(props) {
                     <img className="card-img" src={proyecto5} alt="captura pantalla de la web"></img>
 
                     <div className='project-techologies'>
-                        <p className='tool'>HTML5</p>
-                        <p className='tool' >CSS3</p>
-                        <p className='tool'>Sass</p>
-                        <p className='tool'>Javascript</p>
+                        <p className='tech'>HTML5</p>
+                        <p className='tech' >CSS3</p>
+                        <p className='tech'>Javascript</p>
                     </div>
 
                     <div className='card-links'>
