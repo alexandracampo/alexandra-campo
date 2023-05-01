@@ -14,6 +14,7 @@ import github from '../images/github.png';
 import vsc from '../images/vsc.png';
 import slack from '../images/slack.png';
 import scrum from '../images/scrum.png';
+import window from '../images/window-img.png';
 
 function Technologies(props) {
 
@@ -21,8 +22,11 @@ function Technologies(props) {
     return (
         <div id="technologiesId" className={`technologies ${props.theme}`}>
 
-            <h2 className='title-tech'>/Herramientas</h2>
-            <p>AQUÍ VA UN TEXTO DONDE HABLO DE LAS HERRAMIENTAS QUE MANEJO</p>
+            <h2 className='title-tech'>Herramientas</h2>
+            <p className='tech-text'>Todos mis proyectos están hechos con HTML5, CSS3, Javascript y React.   </p>
+            <div className='img-window-container'>
+                <img className='img-window' src={window} alt="ventana de ordenador" />
+            </div>
             <ul className='icons-list'>
                 <li className='li-icon' ><img className='icon' src={html} alt="icono html " /></li>
                 <li className='li-icon' ><img className='icon' src={css} alt="icono css " /></li>

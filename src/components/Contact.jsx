@@ -9,7 +9,7 @@ function Contact(props) {
 
     return (
         <div id="contactId" className={`contact ${props.theme}`}>
-            <h2 className='title-contact'>/Contacta conmigo</h2>
+            <h2 className='title-contact'>Contacto</h2>
 
             <a className='links-contact' href='https://www.linkedin.com/in/alexandracampomatilla/'>Linkedin<img className='icon' src={linkedin} alt="Logo Linkedin" /></a>
             <a className='links-contact' href='https://github.com/alexandracampo'>Github<img className='icon' src={github} alt="logo Github" /></a>

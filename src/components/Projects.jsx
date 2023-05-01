@@ -14,7 +14,7 @@ function Projects(props) {
     return (
         <div id="projectId" className={`projects ${props.theme}`}>
             <h1 className='projects__title'>
-                {"/Proyectos"}
+                {"Proyectos"}
             </h1>
             <ul className='projects__list' >
 

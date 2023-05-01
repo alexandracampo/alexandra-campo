@@ -8,14 +8,32 @@
   color: rgb(90, 89, 89);
   font-family: $font2;
   margin-top: 5rem;
+  margin-bottom: 4rem;
 
   .title1 {
-    font-weight: 800;
-    font-size: 2.5rem;
-    margin-left: 5rem;
-    text-align: end;
-  }
+    font-weight: 700;
+    font-size: 3rem;
+    color: #686868e3;
+    margin-left: 1rem;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
 
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: $blue2;
+      transition: right 0.8s;
+    }
+    &:hover:after {
+      right: 0;
+    }
+  }
   .title-opacity {
     font-family: $font2;
     font-size: 7rem;
