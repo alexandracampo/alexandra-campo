@@ -1,14 +1,28 @@
 @import "App.scss";
 
 .footer {
-  height: 6rem;
-  background-color: $pink-soft;
-  color: $text-light;
-  margin-top: auto;
+  height: 5rem;
+  background-color: #5ab5c59f;
   font-family: $font2;
+
+  .copyright {
+    font-size: 15px;
+    text-align: start;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+
+  .btn-up {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    margin: auto;
+    top: -2.5rem;
+    left: 45%;
+  }
 }
 
 .dark {
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(92, 92, 92);
   color: white;
 }

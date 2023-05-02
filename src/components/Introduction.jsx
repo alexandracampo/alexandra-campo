@@ -17,7 +17,7 @@ function Introduction(props) {
                     Me encanta programar y maquetar, y más allá de la parte técnica, soy una persona comunicativa, responsable, organizada y totalmente adaptable a los cambios. Todos mis proyectos de equipo se han desarrollado bajo una filosofía Agile, metodología Scrum y en remoto, hemos sido capaces de coordinarnos, organizarnos y practicar entre nosotros una comunicación efectiva donde el feedback era parte importante del trabajo.
                 </p>
                 <p className="text__box3">
-                    Te invito a navegar por mi web, a seguirme en mis redes sociales y a que contactes conmigo para cualquier consulta, propuesta o sugerencia. Welcome!
+                    Te invito a navegar por mi web, a seguirme en mis redes sociales y a que contactes conmigo para cualquier duda o sugerencia. Welcome!
                 </p>
             </div>
         </div>

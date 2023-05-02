@@ -24,7 +24,7 @@ function Technologies(props) {
 
             <h2 className='title-tech'>Herramientas</h2>
 
-            <p className='tech-text'>Todos mis proyectos están hechos con <span className='text-color'>HTML5, CSS3, Javascripty React.</span></p>
+            <p className='tech-text'>Mis proyectos están hechos con <span className='text-color'>HTML5, CSS3, Javascript y React.</span></p>
             <p className='tech-text'><span className='text-color'>Maquetación:</span> HTML5, CSS3, Flexbox, CSS Grid, Sass.</p>
             <p className='tech-text'>JavaScript (ES6) y <span className='text-color'>servicios web (APIs) de terceros</span>.</p>
             <p className='tech-text'>Control de versiones con <span>Git</span>.</p>
@@ -35,7 +35,6 @@ function Technologies(props) {
             <div className='container-circle'>
                 <div className='circle'> </div>
             </div>
-
 
             <ul className='icons-list'>
                 <li className='li-icon' ><img className='icon' src={html} alt="icono html " /></li>

@@ -1,4 +1,6 @@
 import '../styles/Footer.scss';
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import iconUp from '../images/icon-up.png'
 
 
 function Footer(props) {
@@ -6,8 +8,8 @@ function Footer(props) {
 
     return (
         <div className={`footer ${props.theme}`}>
-            <p>hola soy el footer</p>
-            <button>Botón para subir a la primera sección</button>
+            <p className='copyright'>&copy; Alexandra Campo 2023</p>
+            <AnchorLink className='btn-up' offset={() => 300} href='#aboutmeId'><img src={iconUp} /></AnchorLink>
         </div>
     );
 };
