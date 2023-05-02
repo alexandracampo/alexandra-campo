@@ -54,20 +54,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 1rem 1.5rem 0rem 1.5rem;
 
     &__box1 {
-      margin: 1rem 0 2.5rem 0;
-      width: 18rem;
+      margin-bottom: 1.5rem;
     }
 
     &__box2 {
-      margin: 0 0 2.5rem 0;
-      width: 18rem;
+      margin-bottom: 1.5rem;
     }
 
     &__box3 {
-      margin: 0 0 2.5rem 0;
-      width: 18rem;
+      margin-bottom: 1.5rem;
     }
   }
 }

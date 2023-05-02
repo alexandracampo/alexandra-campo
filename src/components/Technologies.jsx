@@ -23,10 +23,20 @@ function Technologies(props) {
         <div id="technologiesId" className={`technologies ${props.theme}`}>
 
             <h2 className='title-tech'>Herramientas</h2>
-            <p className='tech-text'>Todos mis proyectos están hechos con HTML5, CSS3, Javascript y React.   </p>
-            <div className='img-window-container'>
-                <img className='img-window' src={window} alt="ventana de ordenador" />
+
+            <p className='tech-text'>Todos mis proyectos están hechos con <span className='text-color'>HTML5, CSS3, Javascripty React.</span></p>
+            <p className='tech-text'><span className='text-color'>Maquetación:</span> HTML5, CSS3, Flexbox, CSS Grid, Sass.</p>
+            <p className='tech-text'>JavaScript (ES6) y <span className='text-color'>servicios web (APIs) de terceros</span>.</p>
+            <p className='tech-text'>Control de versiones con <span>Git</span>.</p>
+            <p className='tech-text'>Creación de SPAs con React</p>
+            <p className='tech-text'><span className='text-color'>Fundamentos básicos</span> sobre APIs y programación <span className='text-color'>back-end</span>: Aplicaciones con Node JS, Express, MongoDB y SQL</p>
+            <p className='tech-text'><span className='text-color'>Otras herramientas</span>: Manejo de Slack, GitHub, VSCode, Terminal Ubuntu, Zeplin</p>
+
+            <div className='container-circle'>
+                <div className='circle'> </div>
             </div>
+
+
             <ul className='icons-list'>
                 <li className='li-icon' ><img className='icon' src={html} alt="icono html " /></li>
                 <li className='li-icon' ><img className='icon' src={css} alt="icono css " /></li>
@@ -43,8 +53,9 @@ function Technologies(props) {
                 <li className='li-icon' ><img className='icon' src={vsc} alt="icono vsc " /></li>
                 <li className='li-icon' ><img className='icon' src={slack} alt="icono slack " /></li>
                 <li className='li-icon' ><img className='icon' src={scrum} alt="icono scrum " /></li>
-
             </ul>
+
+
         </div>
     );
 };
