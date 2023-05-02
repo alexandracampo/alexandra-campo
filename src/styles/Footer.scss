@@ -5,13 +5,13 @@
   background-color: #5ab5c59f;
   font-family: $font2;
   color: rgb(49, 49, 49);
-  display: block;
 
   .box-copy {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 4rem;
+
     .copyright {
       font-size: 15px;
     }
