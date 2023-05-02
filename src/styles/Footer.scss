@@ -1,27 +1,32 @@
 @import "App.scss";
 
 .footer {
-  height: 5rem;
+  height: 5%;
   background-color: #5ab5c59f;
   font-family: $font2;
   color: rgb(49, 49, 49);
+  display: block;
 
-  .copyright {
-    font-size: 14px;
-    text-align: start;
-    padding-top: 2rem;
-    padding-left: 1rem;
+  .box-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    .copyright {
+      font-size: 15px;
+    }
   }
-
-  .link-arrow {
+  .link-btn {
     position: relative;
-    top: -5rem;
+    top: -7rem;
     left: 45%;
+
     .btn-up {
       width: 4rem;
     }
   }
 }
+
 .dark {
   background-color: rgb(92, 92, 92);
   color: white;

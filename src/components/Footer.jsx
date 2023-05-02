@@ -8,9 +8,10 @@ function Footer(props) {
 
     return (
         <div className={`footer ${props.theme}`}>
-
-            <p className='copyright'>&copy; Alexandra Campo 2023</p>
-            <AnchorLink className='link-arrow' offset={() => 300} href='#aboutmeId'>
+            <div className='box-copy'>
+                <p className='copyright'>&copy; Alexandra Campo 2023</p>
+            </div>
+            <AnchorLink className='link-btn' offset={() => 300} href='#aboutmeId'>
                 <img className='btn-up' src={iconUp} alt='imagen flecha arriba'></img>
             </AnchorLink>
 

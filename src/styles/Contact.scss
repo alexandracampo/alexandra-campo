@@ -4,6 +4,7 @@
   color: rgb(90, 90, 90);
   font-family: $font2;
   height: 60vh;
+  overflow: hidden;
 
   .title-contact {
     font-weight: 700;
@@ -59,15 +60,20 @@
     position: relative;
     margin: auto;
     top: -12rem;
-    left: 7rem;
+    left: 7.5rem;
     width: 25rem;
     height: 20rem;
+
+    .dark {
+      background-color: transparent;
+    }
 
     .list-links {
       position: relative;
       margin: auto;
       bottom: -11rem;
       left: 2.8rem;
+      display: inline-block;
 
       .links-contact {
         text-decoration: none;
@@ -87,9 +93,4 @@
       }
     }
   }
-}
-
-.dark {
-  background-color: rgb(54, 54, 54);
-  color: white;
 }
