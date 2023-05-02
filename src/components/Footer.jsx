@@ -8,8 +8,13 @@ function Footer(props) {
 
     return (
         <div className={`footer ${props.theme}`}>
+
             <p className='copyright'>&copy; Alexandra Campo 2023</p>
-            <AnchorLink className='btn-up' offset={() => 300} href='#aboutmeId'><img src={iconUp} /></AnchorLink>
+            <AnchorLink className='link-arrow' offset={() => 300} href='#aboutmeId'>
+                <img className='btn-up' src={iconUp} alt='imagen flecha arriba'></img>
+            </AnchorLink>
+
+
         </div>
     );
 };

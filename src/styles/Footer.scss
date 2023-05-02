@@ -4,24 +4,24 @@
   height: 5rem;
   background-color: #5ab5c59f;
   font-family: $font2;
+  color: rgb(49, 49, 49);
 
   .copyright {
-    font-size: 15px;
+    font-size: 14px;
     text-align: start;
-    display: inline-block;
-    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
   }
 
-  .btn-up {
-    width: 3rem;
-    height: 3rem;
-    position: absolute;
-    margin: auto;
-    top: -2.5rem;
+  .link-arrow {
+    position: relative;
+    top: -5rem;
     left: 45%;
+    .btn-up {
+      width: 4rem;
+    }
   }
 }
-
 .dark {
   background-color: rgb(92, 92, 92);
   color: white;

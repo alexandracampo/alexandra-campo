@@ -8,7 +8,6 @@ function Introduction(props) {
 
             <h1 className='title1'>{"About me"}</h1>
 
-            <h2 className="title-opacity">About me</h2>
             <div className="text">
                 <p className="text__box1">
                     Hi! Me llamo Alexandra, vivo en Mallorca y me acabo de graduar en un increíble bootcamp de desarrollo web. Mi trayectoria profesional ha transcurrido principalmente en el ámbito administrativo. Me gradué en Administración de Empresas y fué ahí, trabajando en mi TFG, donde por fin decidí que tenía que desviar mi camino hacia el mundo de la programación.

@@ -13,7 +13,6 @@
   .title1 {
     font-weight: 700;
     font-size: 3rem;
-    color: #686868e3;
     margin-left: 1rem;
     position: relative;
     overflow: hidden;
@@ -33,15 +32,6 @@
     &:hover:after {
       right: 0;
     }
-  }
-  .title-opacity {
-    font-family: $font2;
-    font-size: 7rem;
-    color: rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 10%;
   }
 
   .text {
