@@ -3,7 +3,6 @@
 .contact {
   color: rgb(90, 90, 90);
   font-family: $font2;
-  height: 50%;
   overflow: hidden;
 
   .title-contact {
@@ -41,6 +40,11 @@
     margin-bottom: 1rem;
     margin: auto;
 
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      width: 25rem;
+      height: 30rem;
+    }
+
     .text-contact {
       font-weight: 500;
       font-size: 18px;
@@ -50,6 +54,10 @@
       line-height: 1.5rem;
       top: 6rem;
       left: 1rem;
+
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 20px;
+      }
     }
   }
 
@@ -64,6 +72,12 @@
     width: 25rem;
     height: 20rem;
 
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      width: 30rem;
+      height: 24rem;
+      top: -12rem;
+    }
+
     .dark {
       background-color: transparent;
     }
@@ -74,6 +88,11 @@
       bottom: -11rem;
       left: 2.8rem;
       display: inline-block;
+
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        bottom: -13.2rem;
+        left: 4rem;
+      }
 
       .links-contact {
         text-decoration: none;

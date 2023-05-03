@@ -29,17 +29,19 @@ function Principal() {
 
 
     return (
-        <div>
+        <div >
 
             <Header
                 prop1={toggleTheme}
                 theme={`${theme}`}
             />
-            <Introduction theme={`${theme}`} />
-            <Projects theme={`${theme}`} />
-            <Technologies theme={`${theme}`} />
-            <Contact theme={`${theme}`} />
-            <Footer theme={`${theme}`} />
+            <div className='body-principal'>
+                <Introduction theme={`${theme}`} />
+                <Projects theme={`${theme}`} />
+                <Technologies theme={`${theme}`} />
+                <Contact theme={`${theme}`} />
+                <Footer theme={`${theme}`} />
+            </div>
         </div>
     );
 };
