@@ -4,6 +4,7 @@
   color: rgb(90, 90, 90);
   font-family: $font2;
   overflow: hidden;
+  margin: 0;
 
   .title-contact {
     font-weight: 700;
@@ -14,6 +15,10 @@
     overflow: hidden;
     display: inline-block;
     text-decoration: none;
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      margin: 3rem 0rem 2rem 4rem;
+    }
 
     &:after {
       content: "";
@@ -41,8 +46,8 @@
     margin: auto;
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-      width: 25rem;
-      height: 30rem;
+      width: 30rem;
+      height: 34rem;
     }
 
     .text-contact {
@@ -57,6 +62,8 @@
 
       @media screen and (min-width: 768px) and (max-width: 1024px) {
         font-size: 20px;
+        line-height: 1.8rem;
+        top: 7rem;
       }
     }
   }
@@ -73,9 +80,9 @@
     height: 20rem;
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-      width: 30rem;
-      height: 24rem;
       top: -12rem;
+      height: 30rem;
+      left: 9rem;
     }
 
     .dark {
@@ -90,24 +97,29 @@
       display: inline-block;
 
       @media screen and (min-width: 768px) and (max-width: 1024px) {
-        bottom: -13.2rem;
-        left: 4rem;
+        bottom: -15.5rem;
+        left: 3.5rem;
       }
 
       .links-contact {
-        text-decoration: none;
-        text-align: center;
-        width: 5rem;
         cursor: pointer;
-
-        &:active,
-        &:visited {
-          color: rgb(77, 77, 77);
-        }
 
         .icon {
           width: 3.5rem;
-          margin: 0.2rem;
+
+          @media screen and (min-width: 768px) and (max-width: 1024px) {
+            width: 6rem;
+          }
+        }
+
+        .twitter {
+          width: 2.6rem;
+          margin: 0.5rem;
+
+          @media screen and (min-width: 768px) and (max-width: 1024px) {
+            width: 4.3rem;
+            margin: 0.8rem;
+          }
         }
       }
     }

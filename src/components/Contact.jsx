@@ -1,7 +1,7 @@
 import '../styles/Contact.scss';
-import github from '../images/github-i.png';
-import linkedin from '../images/linkedin-i.png';
-import twitter from '../images/twitter-i.png';
+import github from '../images/icon-git.png';
+import linkedin from '../images/icon-linkedin.png';
+import twitter from '../images/icon-tw.png';
 
 function Contact(props) {
 
@@ -19,11 +19,11 @@ function Contact(props) {
                     <a className='links-contact' target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/alexandracampomatilla/'>
                         <img className='icon' src={linkedin} alt="Logo Linkedin" />
                     </a>
-                    <a className={`links-contact ${props.theme}`} target="_blank" rel="noopener noreferrer" href='https://github.com/alexandracampo'>
+                    <a className='links-contact' target="_blank" rel="noopener noreferrer" href='https://github.com/alexandracampo'>
                         <img className='icon' src={github} alt="logo Github" />
                     </a>
-                    <a className={`links-contact ${props.theme}`} target="_blank" rel="noopener noreferrer" href='https://twitter.com/AlexFieldCode'>
-                        <img className='icon' src={twitter} alt="logo Twitter" />
+                    <a className='links-contact' target="_blank" rel="noopener noreferrer" href='https://twitter.com/AlexFieldCode'>
+                        <img className='icon twitter' src={twitter} alt="logo Twitter" />
                     </a>
                 </div>
             </div>

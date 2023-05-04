@@ -13,6 +13,10 @@
     display: inline-block;
     text-decoration: none;
 
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      margin: 3rem 0rem 2rem 4rem;
+    }
+
     &:after {
       content: "";
       position: absolute;
@@ -36,6 +40,10 @@
     row-gap: 5rem;
     column-gap: 8rem;
     margin-top: 2rem;
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      margin: 2rem 6rem 2rem 6rem;
+    }
 
     .projects-li {
       //box-shadow: 5px 5px 10px inset #48529944; el color es para la sombra /"inset": la sombra se crea en el interior
