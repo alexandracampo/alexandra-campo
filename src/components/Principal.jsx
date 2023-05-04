@@ -30,7 +30,7 @@ function Principal() {
 
     return (
         <div >
-            <div className='body'>
+            <div className={theme ? 'dark' : 'body'}>
                 <Header
                     prop1={toggleTheme}
                     theme={`${theme}`}

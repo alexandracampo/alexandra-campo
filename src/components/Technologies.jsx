@@ -23,17 +23,20 @@ function Technologies(props) {
         <div id="technologiesId" className={`technologies ${props.theme}`}>
 
             <h2 className='title-tech'>Herramientas</h2>
+            <div className='box-main-tech'>
+                <div className='box-tech-text'>
+                    <p className='tech-text'>Mis proyectos están hechos con <span className='text-color'>HTML, CSS, Javascript (ES6) y React.</span></p>
+                    <p className='tech-text'><span className='text-color'>Maquetación:</span> HTML5, CSS3, Flexbox, CSS Grid, Sass.</p>
+                    <p className='tech-text'>Uso de servicios web: <span className='text-color'>APIs de terceros</span>.</p>
+                    <p className='tech-text'>Control de versiones con <span>Git</span>.</p>
+                    <p className='tech-text'>Creación de SPAs con React</p>
+                    <p className='tech-text'><span className='text-color'>Fundamentos básicos</span> sobre construcción de APIs y programación <span className='text-color'>back-end</span>: Aplicaciones con Node JS, Express, MongoDB y SQL.</p>
+                    <p className='tech-text'><span className='text-color'>Otras herramientas</span>: Slack, GitHub, VSCode, Terminal Ubuntu, Zeplin.</p>
+                </div>
 
-            <p className='tech-text'>Mis proyectos están hechos con <span className='text-color'>HTML, CSS, Javascript (ES6) y React.</span></p>
-            <p className='tech-text'><span className='text-color'>Maquetación:</span> HTML5, CSS3, Flexbox, CSS Grid, Sass.</p>
-            <p className='tech-text'>Uso de servicios web: <span className='text-color'>APIs de terceros</span>.</p>
-            <p className='tech-text'>Control de versiones con <span>Git</span>.</p>
-            <p className='tech-text'>Creación de SPAs con React</p>
-            <p className='tech-text'><span className='text-color'>Fundamentos básicos</span> sobre construcción de APIs y programación <span className='text-color'>back-end</span>: Aplicaciones con Node JS, Express, MongoDB y SQL.</p>
-            <p className='tech-text'><span className='text-color'>Otras herramientas</span>: Slack, GitHub, VSCode, Terminal Ubuntu, Zeplin.</p>
-
-            <div className='container-circle'>
-                <div className='circle'> </div>
+                <div className='container-circle'>
+                    <div className='circle'> </div>
+                </div>
             </div>
 
             <ul className='icons-list'>

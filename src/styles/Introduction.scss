@@ -3,16 +3,16 @@
 .introduction {
   background-image: url("../images/fondo25_.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   color: rgb(90, 89, 89);
   font-family: $font2;
-  margin-top: 5rem;
-  margin-bottom: 4rem;
+  padding-top: 8rem;
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     height: 70vh;
     margin-bottom: 0rem;
+    margin-bottom: 12rem;
   }
 
   @media screen and (min-width: 1024px) {
@@ -34,7 +34,8 @@
     }
 
     @media screen and (min-width: 1024px) {
-      margin-top: 5rem;
+      margin-top: 10rem;
+      margin-left: 10rem;
     }
 
     &:after {
@@ -66,10 +67,18 @@
 
     &__box1 {
       margin-bottom: 1.5rem;
+
+      @media screen and (min-width: 1024px) {
+        margin-bottom: 3rem;
+      }
     }
 
     &__box2 {
       margin-bottom: 1.5rem;
+
+      @media screen and (min-width: 1024px) {
+        margin-bottom: 3rem;
+      }
     }
 
     &__box3 {
@@ -79,6 +88,13 @@
     @media screen and (min-width: 768px) and (max-width: 1024px) {
       font-size: 1.2rem;
       margin: 3rem 10rem 0rem 10rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 1.2rem;
+      margin: 3rem 10rem 0rem 15rem;
+      width: 60%;
+      text-align: justify;
     }
   }
 }

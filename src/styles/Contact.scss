@@ -20,6 +20,11 @@
       margin: 3rem 0rem 2rem 4rem;
     }
 
+    @media screen and (min-width: 1024px) {
+      margin-top: 5rem;
+      margin-left: 10rem;
+    }
+
     &:after {
       content: "";
       position: absolute;
@@ -34,91 +39,129 @@
       right: 0;
     }
   }
-
-  .container-text {
-    background-image: url("../images/background-contact.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 22rem;
-    height: 28rem;
-    position: relative;
-    margin-bottom: 1rem;
-    margin: auto;
-
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      width: 30rem;
-      height: 34rem;
+  .container {
+    @media screen and (min-width: 1024px) {
+      position: relative;
+      right: 0rem;
     }
 
-    .text-contact {
-      font-weight: 500;
-      font-size: 18px;
+    .container-text {
+      background-image: url("../images/background-contact.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 20rem;
+      height: 22rem;
       position: relative;
+      margin-bottom: 1rem;
       margin: auto;
-      width: 15rem;
-      line-height: 1.5rem;
-      top: 6rem;
-      left: 1rem;
 
       @media screen and (min-width: 768px) and (max-width: 1024px) {
-        font-size: 20px;
-        line-height: 1.8rem;
-        top: 7rem;
-      }
-    }
-  }
-
-  .container-links {
-    background-image: url("../images/background-contact-2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: auto;
-    top: -12rem;
-    left: 7.5rem;
-    width: 25rem;
-    height: 20rem;
-
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      top: -12rem;
-      height: 30rem;
-      left: 9rem;
-    }
-
-    .dark {
-      background-color: transparent;
-    }
-
-    .list-links {
-      position: relative;
-      margin: auto;
-      bottom: -11rem;
-      left: 2.8rem;
-      display: inline-block;
-
-      @media screen and (min-width: 768px) and (max-width: 1024px) {
-        bottom: -15.5rem;
-        left: 3.5rem;
+        width: 30rem;
+        height: 33rem;
       }
 
-      .links-contact {
-        cursor: pointer;
+      @media screen and (min-width: 1024px) {
+        width: 35rem;
+        height: 38.5rem;
+        display: inline-block;
+        left: 10rem;
+      }
 
-        .icon {
-          width: 3.5rem;
+      .text-contact {
+        font-weight: 500;
+        font-size: 13px;
+        position: relative;
+        margin: auto;
+        width: 12rem;
+        line-height: 1.5rem;
+        top: 5rem;
+        left: 0.5rem;
 
-          @media screen and (min-width: 768px) and (max-width: 1024px) {
-            width: 6rem;
-          }
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+          font-size: 20px;
+          line-height: 1.9rem;
+          width: 15rem;
+          top: 6rem;
         }
 
-        .twitter {
-          width: 2.6rem;
-          margin: 0.5rem;
+        @media screen and (min-width: 1024px) {
+          font-size: 23px;
+          line-height: 1.9rem;
+          top: 8rem;
+          width: 15rem;
+          text-align: center;
+        }
+      }
+    }
 
-          @media screen and (min-width: 768px) and (max-width: 1024px) {
-            width: 4.3rem;
-            margin: 0.8rem;
+    .container-links {
+      background-image: url("../images/background-contact-2.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: relative;
+      margin: auto;
+      top: -9rem;
+      left: 1rem;
+      width: 17rem;
+      height: 20rem;
+
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 25.5rem;
+        height: 30rem;
+      }
+
+      @media screen and (min-width: 1024px) {
+        width: 25.5rem;
+        height: 30rem;
+        display: inline-block;
+        left: 5rem;
+      }
+
+      .list-links {
+        position: relative;
+        margin: auto;
+        bottom: -11rem;
+        left: 2.8rem;
+        display: inline-block;
+        background-color: transparent;
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+          bottom: -15.5rem;
+          left: 5.5rem;
+        }
+
+        @media screen and (min-width: 1024px) {
+          bottom: -13.5rem;
+          left: 4.5rem;
+        }
+
+        .links-contact {
+          cursor: pointer;
+
+          .icon {
+            width: 3.5rem;
+
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+              width: 4.5rem;
+            }
+
+            @media screen and (min-width: 1024px) {
+              width: 5.5rem;
+            }
+          }
+
+          .twitter {
+            width: 2.6rem;
+            margin: 0.5rem;
+
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+              width: 3.3rem;
+            }
+
+            @media screen and (min-width: 1024px) {
+              width: 4rem;
+              margin-bottom: 0.8rem;
+            }
           }
         }
       }

@@ -14,7 +14,12 @@
     text-decoration: none;
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-      margin: 3rem 0rem 2rem 4rem;
+      margin: 7rem 0rem 2rem 4rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-top: 5rem;
+      margin-left: 10rem;
     }
 
     &:after {
@@ -43,6 +48,12 @@
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
       margin: 2rem 6rem 2rem 6rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-top: 5rem;
+      margin-left: 14rem;
+      margin-right: 14rem;
     }
 
     .projects-li {
