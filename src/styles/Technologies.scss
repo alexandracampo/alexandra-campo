@@ -18,6 +18,10 @@
   background-position: left;
   background-repeat: no-repeat;
 
+  @media screen and (min-width: 1024px) {
+    background-image: none;
+  }
+
   .title-tech {
     font-weight: 700;
     font-size: 3rem;
