@@ -18,13 +18,13 @@ function Contact(props) {
 
                     <div className={`list-links ${props.theme}`}>
                         <a className='links-contact' target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/alexandracampomatilla/'>
-                            <img className='icon' src={linkedin} alt="Logo Linkedin" />
+                            <img className='icon icon-linkedin' src={linkedin} alt="Logo Linkedin" />
                         </a>
                         <a className='links-contact' target="_blank" rel="noopener noreferrer" href='https://github.com/alexandracampo'>
-                            <img className='icon' src={github} alt="logo Github" />
+                            <img className='icon icon-github' src={github} alt="logo Github" />
                         </a>
                         <a className='links-contact' target="_blank" rel="noopener noreferrer" href='https://twitter.com/AlexFieldCode'>
-                            <img className='icon twitter' src={twitter} alt="logo Twitter" />
+                            <img className='icon-twitter' src={twitter} alt="logo Twitter" />
                         </a>
                     </div>
                 </div>

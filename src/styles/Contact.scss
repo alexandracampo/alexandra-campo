@@ -150,9 +150,19 @@
             }
           }
 
-          .twitter {
+          .icon-linkedin,
+          .icon-github {
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+          .icon-twitter {
             width: 2.6rem;
             margin: 0.5rem;
+
+            &:hover {
+              transform: scale(1.2);
+            }
 
             @media screen and (min-width: 768px) and (max-width: 1024px) {
               width: 3.3rem;
