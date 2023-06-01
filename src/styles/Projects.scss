@@ -183,10 +183,18 @@
       .icon-web {
         height: 2.2rem;
         margin-bottom: 0.5rem;
+
+        &:hover {
+          transform: scale(1.2);
+        }
       }
       .icon-git {
         height: 2.8rem;
         margin-bottom: 0.5rem;
+
+        &:hover {
+          transform: scale(1.2);
+        }
       }
     }
   }
