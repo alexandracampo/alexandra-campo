@@ -42,8 +42,9 @@ function Projects(props) {
                         <p className='tech'>Javascript</p>
                     </div>
                     <div className='card-links'>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/web-de-proyectos/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-de-proyectos"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/memory/
+                        "><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/memory"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
                     </div>
                 </li>
 
@@ -57,8 +58,9 @@ function Projects(props) {
                         <p className='tech'>React</p>
                     </div>
                     <div className='card-links'>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/memory/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/memory"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/web-de-proyectos/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-de-proyectos
+                        "><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
                     </div>
                 </li>
 
