@@ -7,6 +7,8 @@ import proyecto5 from '../images/proyecto5.JPG';
 import iconWeb from '../images/icon-web1.png';
 import iconGit from '../images/icon-git.png'
 import adivina from '../images/adivina.JPG'
+import memory from '../images/memory.JPG'
+
 
 function Projects(props) {
     return (
@@ -32,6 +34,20 @@ function Projects(props) {
                 </li>
 
                 <li className={`projects-li ${props.theme}`}>
+                    <p className='title-project'>MEMORY GAME</p>
+                    <img className="card-img" src={memory} alt="captura pantalla de la web"></img>
+                    <div className='project-techologies'>
+                        <p className='tech'>HTML5</p>
+                        <p className='tech' >CSS3</p>
+                        <p className='tech'>Javascript</p>
+                    </div>
+                    <div className='card-links'>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/web-de-proyectos/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-de-proyectos"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
+                    </div>
+                </li>
+
+                <li className={`projects-li ${props.theme}`}>
                     <p className='title-project'>WEB DE PROYECTOS</p>
                     <img className="card-img" src={proyecto3} alt="captura pantalla de la web"></img>
                     <div className='project-techologies'>
@@ -41,8 +57,8 @@ function Projects(props) {
                         <p className='tech'>React</p>
                     </div>
                     <div className='card-links'>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/web-de-proyectos/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
-                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/web-de-proyectos"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://alexandracampo.github.io/memory/"><img src={iconWeb} className="icon-web" alt="enlace la web" /></a>
+                        <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/alexandracampo/memory"><img src={iconGit} className="icon-git" alt="enlace a git" /></a>
                     </div>
                 </li>
 
