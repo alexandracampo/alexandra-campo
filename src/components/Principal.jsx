@@ -33,14 +33,14 @@ function Principal() {
             <div className={theme ? 'dark' : 'body'}>
                 <Header
                     prop1={toggleTheme}
-                    theme={`${theme}`}
+                    theme={theme}
                 />
-                <Introduction theme={`${theme}`} />
-                <Projects theme={`${theme}`} />
-                <Technologies theme={`${theme}`} />
-                <Contact theme={`${theme}`} />
+                <Introduction theme={theme} />
+                <Projects theme={theme} />
+                <Technologies theme={theme} />
+                <Contact theme={theme} />
             </div>
-            <Footer theme={`${theme}`} />
+            <Footer theme={theme} />
         </div>
     );
 };
