@@ -11,7 +11,7 @@ function Contact(props) {
             <h2 className='title-contact'>Contacto</h2>
             <div className='container'>
                 <div className='container-text'>
-                    <p className='text-contact' >Aquí te dejo los links a mis redes para que podamos estar conectados. No dudes en escribirme para cualquier consulta, propuesta o sugerencia. See you soon! </p>
+                    <p className='text-contact' >Estos son los links a mis redes. Te invito a que los visites para que podamos estar conectados. No dudes en escribirme ante cualquier consulta, propuesta o sugerencia. See you soon! </p>
                 </div>
 
                 <div className='container-links'>
